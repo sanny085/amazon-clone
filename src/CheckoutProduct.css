@@ -1,0 +1,36 @@
+.CheckoutProduct{
+    display:flex;
+    margin:20px 0px;
+}
+.CheckoutProduct_info{
+    padding-left: 50px;
+    margin:auto;
+}
+.CheckoutProduct_image{
+    object-fit: contain;
+    width:170px;
+    height:180px;
+}
+.CheckoutProduct_info > button{
+    background: #FFA41C;
+    border: 1px solid #FF8F00;
+    border-radius:6px;
+    outline:none;
+    cursor: pointer;
+    text-align: center; 
+    color:#111;
+    margin-top: 10px; 
+    padding:4px 6px; 
+}
+
+.CheckoutProduct_info > button:hover{
+    background: #fa8619;
+}
+.CheckoutProduct_rating{
+    display:flex;
+}
+.CheckoutProduct_title{
+    font-size:16px;
+    font-weight: 800px;
+
+}
