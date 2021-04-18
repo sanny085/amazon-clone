@@ -7,7 +7,6 @@ export const getBasketTotal = (basket) =>
     //itterate through array
      basket?.reduce((amount, index) =>  index.price + amount, 0);
 
-
 function reducer(state, action) {
     switch(action.type) 
      {
