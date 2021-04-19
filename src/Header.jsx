@@ -10,7 +10,6 @@ function Header() {
    const [{ basket }, dispatch] = useStateValue();
     console.log("This is : ",basket.price);
   
-
  return(
    <div className="header">
      {/*Brand Icon*/}
@@ -48,5 +47,4 @@ function Header() {
    </div>
  )
 }
-
 export default Header;
