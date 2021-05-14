@@ -11,7 +11,7 @@ function Checkout() {
        <div className="checkout_left">
          <img className="checkout_ad" src="https://www.icicibank.com/managed-assets/images/offer-zone/net-banking/FD-amazon-promo-d.jpg" alt="card"/>      
          
-           <h2 className="checkout_title">Your Shopping Basket</h2>
+          <h2 className="checkout_title">Your Shopping Basket</h2>
         <div>
          {/*CheckOut Product Item*/}
           {basket.map(item => (
@@ -26,7 +26,6 @@ function Checkout() {
 
         </div> 
        </div> 
-
        <div className="checkout_right">
          {/*Sub Total Price Component*/}
          <Subtotal/>
@@ -35,6 +34,5 @@ function Checkout() {
         
     );
 }
-
 export default Checkout;
  
