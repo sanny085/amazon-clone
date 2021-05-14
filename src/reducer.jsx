@@ -1,7 +1,6 @@
 export const initialState = {
     basket :[],
 };
-
 // Selector for adding total price in subtotal component
 export const getBasketTotal = (basket) => 
     //itterate through array
@@ -34,5 +33,4 @@ function reducer(state, action) {
              return state;       
      }
 };
-
 export default reducer;
